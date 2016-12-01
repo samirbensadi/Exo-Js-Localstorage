@@ -1,0 +1,157 @@
+*
+{
+	padding: 0; 
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	font-size: 20px;
+	font-family: Courier;
+}
+
+
+
+/*corps de page*/
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 90px;
+	width: 100%;
+	background-color: #0484BD; 
+	box-shadow: 0 8px 9px 2px 
+				rgba(0,0,0,0.14),0 6px 20px 5px 
+				rgba(0,0,0,0.12),0 8px 10px -5px 
+				rgba(0,0,0,0.3);
+
+
+}
+
+h1
+{
+	text-align: center;
+	color: white;
+}
+
+/* Main*/
+main
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 25px;
+
+}
+
+/* Zone d'édition*/
+#editZone
+{
+	/*border:1px solid black;*/
+	height: 40em; 
+	width: 35em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 16px 24px 2px 
+				rgba(0,0,0,0.14),0 6px 30px 5px 
+				rgba(0,0,0,0.12),0 8px 10px -5px 
+				rgba(0,0,0,0.3);
+}
+
+
+form
+{
+	display: flex;
+	flex-direction: column;
+}
+
+input
+{
+	height: 2.5em; 
+	width: 20em;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+/* boutons*/
+
+.btn
+{
+	background-color: none;
+	border: none;
+}
+
+
+#writeBtn
+{
+	background-color:#4685F2;
+	transition: 0.7s; 
+}
+
+#writeBtn:hover
+{
+	background-color: #1757C6;
+	color: white;
+	transition: 0.7s;
+}
+
+
+#readBtn
+{
+	background-color: #FBBC05;
+	transition: 0.7s;
+}
+
+#readBtn:hover
+{
+	background-color: #947825; 
+	transition: 0.7s;
+	color: white;
+}
+
+
+
+#delBtn
+{
+	background-color: #EA4335;
+	transition: 0.7s;
+}
+
+#delBtn:hover
+{
+	background-color: #C12215;
+	transition: 0.7s;
+	color: white;
+}
+
+#initBtn
+{
+	background-color: #34A853;
+	transition: 0.7s;
+}
+
+#initBtn:hover
+{
+	background-color: #126829; 
+	transition:0.7s;
+	color: white;
+}
+
+
+#prevZone
+{
+	/*border:1px solid black;*/
+	height: 40em;
+	width: 35em;
+	box-shadow: 0 16px 24px 2px 
+				rgba(0,0,0,0.14),0 6px 30px 5px 
+				rgba(0,0,0,0.12),0 8px 10px -5px 
+				rgba(0,0,0,0.3);
+}

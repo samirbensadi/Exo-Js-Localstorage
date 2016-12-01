@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Local Storage</title>
+	</head>
+
+	<body>
+
+		<form action="page2.html">
+			<input type="submit"  value="Flux">
+		</form>
+
+		
+		<input onclick="count()" type="submit" value="Click">
+		
+
+		<p> Tu as clické: <span id="compte"></span> fois !</p>
+
+
+	</body>
+
+	<script type="text/javascript">
+		localStorage.setItem("couleur#", "#8F0000")
+		localStorage.setItem("couleur", "Rouge")
+	</script>
+
+	<script type="text/javascript">
+
+	function count() { 
+	if (typeof localStorage!='undefined') 
+	{
+		var nbclick = localStorage.getItem('nbclick');
+		if (nbclick != null) 
+		{
+			nbclick = parseInt(nbclick);
+		} 
+		else 
+		{
+			nbclick = 1;
+		}
+		nbclick++;
+		localStorage.setItem('nbclick', nbclick);
+		document.getElementById('compte').innerHTML = nbclick;
+
+	}
+	else 
+	{
+		alert("localStorage n'est pas supporté"); 
+	}
+}
+		
+
+	</script>
+</html>
