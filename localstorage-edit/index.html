@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="style.css">
+		<title>editJS</title>
+	</head>
+	<body>
+	<header>
+		<h1> USER INTERFACE</h1>
+	</header>	
+
+	<main>
+	<!--section d'édition-->
+		<section id="editZone">
+			<form>
+				<input id="name" type="text" name="nom"  placeholder="nom">
+				<input id="valeur" type="text" name="valeur"  placeholder="valeur">
+
+				<!-- Boutons -->
+					<input onclick="ecrire()" class="btn" id="writeBtn" type="button" value="Ecrire">
+
+					<input onclick="lire()" class="btn" id="readBtn" type="button"  value="Lire">
+
+					<input onclick="eff()" class="btn" id="delBtn" type="button"  value="Effacer">
+
+					<input onclick="init()" class="btn" id="initBtn" type="button"  value="Réinitialiser">
+					
+				
+			</form>
+		</section>
+
+		<section id="prevZone"></section>
+	</main>
+
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
