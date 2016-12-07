@@ -37,6 +37,15 @@ h1
 	color: white;
 }
 
+/* header preview */
+h2 
+{
+	color: white;
+}
+
+
+
+
 /* Main*/
 main
 {
@@ -77,14 +86,21 @@ input
 	width: 20em;
 	margin-top: 5px;
 	font-size: 18px;
+	border: 1px solid #4685F2;
+	border-radius: 25px;
+	text-align: center;
+	outline: none;
 }
+
+
 
 /* boutons*/
 
 .btn
 {
 	background-color: none;
-	border: none;
+	border: 1px solid #B9BEAA;
+	border-radius: 25px;
 	
 }
 
@@ -100,6 +116,7 @@ input
 	background-color: #1757C6;
 	color: white;
 	transition: 0.7s;
+	transform:rotateY(30deg);
 }
 
 
@@ -114,6 +131,7 @@ input
 	background-color: #947825; 
 	transition: 0.7s;
 	color: white;
+	transform:rotateY(30deg);
 }
 
 
@@ -129,6 +147,7 @@ input
 	background-color: #C12215;
 	transition: 0.7s;
 	color: white;
+	transform:rotateY(30deg);
 }
 
 #initBtn
@@ -142,8 +161,10 @@ input
 	background-color: #126829; 
 	transition:0.7s;
 	color: white;
+	transform:rotateY(30deg);
 }
 
+/* zone preview*/
 
 #prevZone
 {
@@ -155,4 +176,9 @@ input
 				rgba(0,0,0,0.14),0 6px 30px 5px 
 				rgba(0,0,0,0.12),0 8px 10px -5px 
 				rgba(0,0,0,0.3);
+}
+
+p
+{
+	margin: 10px;
 }
