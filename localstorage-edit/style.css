@@ -92,6 +92,18 @@ input
 	outline: none;
 }
 
+button 
+{
+	height: 2.5em; 
+	width: 20em;
+	margin-top: 5px;
+	font-size: 18px;
+	border: 1px solid #4685F2;
+	border-radius: 25px;
+	text-align: center;
+	outline: none;
+}
+
 
 
 /* boutons*/

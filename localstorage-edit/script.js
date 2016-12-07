@@ -14,13 +14,16 @@ function lire() {
 
 }
 
-// zone à travailler : 
+// zone suppr à travailler (garder une valeur) : 
 function eff() {
 	 sessionStorage.clear('valeur');
 	 document.getElementById('readZone').innerHTML = sessionStorage.getItem('objet');
 }
 
+
+//réïnitialise la page
 function init() {
+	
 	window.location.reload();
 }
 	 
